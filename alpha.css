@@ -1,0 +1,1055 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    background-image:url(./images/banner.jpg) ;
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(244,244,244);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#mobilemenue{
+    display: none;
+}
+
+#left{
+    display: flex;
+}
+
+#left h4{
+    display: flex;
+    color: aliceblue;
+    padding-left: 20px;
+
+}
+
+#left span{
+    padding-left: 6px;
+    font-weight: 100;
+}
+
+#right{
+    color: aliceblue;
+    text-decoration: none;
+ 
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    list-style-type: none;
+
+}
+
+
+#right li{
+    padding:0px 20px;
+}
+
+#container a{
+    text-decoration: none;
+    color:aliceblue;
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+}
+
+#container button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: transparent;
+    color: aliceblue;
+    font-weight: 200;
+    border: 2px solid aliceblue;
+    font-size: medium;
+}
+
+#drop{
+    position:relative;
+}
+
+#menue{
+    list-style-type: none;
+    background-color: aliceblue;
+    position: absolute;
+    top: 100%;
+    padding: 0;
+    right: 0%;
+    width: 180%;
+    display: none;
+
+
+}
+
+#menue a{
+    color: black;
+    font-weight: 200;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding: 5px;
+}
+
+#menue li{
+    padding: 0;
+}
+
+#menue a:hover{
+    background-color: rgb(232,153,128);
+}
+
+#drop:hover #menue{
+    display: block;
+}
+
+
+#drop2{
+    position: relative;
+}
+
+
+#menue2{
+    position: absolute;
+    list-style-type: none;
+    background-color: aliceblue;
+    top: 0%;
+    right: 100%;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    display: none;
+}
+
+#drop2:hover #menue2{
+    display: block;
+}
+
+#alpha{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 120px;
+}
+#alpha h1{
+    font-size: 4rem;
+    font-weight: 580;
+    margin-bottom: 0;
+}
+
+#alpha p{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+#alpha button{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(205, 204, 204);
+    font-weight: 200;
+    border: 2px solid rgb(216, 213, 213);
+    font-size: medium;
+    margin: 0px 12px;
+    cursor:pointer;
+
+}
+
+#alpha button:hover{
+    background-color: rgba(200, 200, 200, 0.286);
+}
+
+#alpha #signup{
+    background-color: white;
+    color: rgb(149, 149, 149);
+    border: none;
+}
+
+
+#mobile{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    height: 80vh;
+    border-radius: 5px;
+}
+
+#mobile h1{
+    text-align: center;
+    color: rgb(71, 71, 71);
+    font-size: 2.2rem;
+    font-weight: 500;
+   padding-top: 7%;
+   margin-top: 16%;
+   margin-bottom: 50px;
+}
+
+#mobile hr{
+    width: 62%;
+    margin: auto;
+    margin-bottom: 50px;
+    color: rgba(237, 234, 234, 0.384);
+}
+
+#mobile p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+}
+
+#mobile #para2{
+    display: none;
+}
+
+#mobile img{
+    width: 100%;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+
+/* --------------------------------------------------------------------------------------- */
+
+
+#icons {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 12rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    padding-top:1rem ;
+    padding-bottom: 2rem;
+}
+
+#icons div{
+    width: 46%;
+    display: inline-block;
+    padding-top: 3rem;
+    text-align: center;
+
+}
+
+.fa-bolt-lightning{
+   color: white;
+   background-color:rgb(232,153,128) ;
+   font-size: 35px;
+   width: 10%;
+   height: 6vh;
+   padding: 1.5rem 1.5rem;
+   border-radius:100% ;
+}
+
+.fa-cloud{
+    color: white;
+    background-color:rgb(144,176,186) ;
+    font-size: 35px;
+    width: 10%;
+    height: 6vh;
+    padding: 1.5rem 1.5rem;
+    border-radius:100% ;
+ }
+ .fa-chart-area{
+    color: white;
+    background-color:rgb(127,205,184) ;
+    font-size: 35px;
+    width: 10%;
+    height: 6vh;
+    padding: 1.5rem 1.5rem;
+    border-radius:100% ;
+ }
+ .fa-lock{
+    color: white;
+    background-color:rgb(229,203,149) ;
+    font-size: 35px;
+    width: 10%;
+    height: 6vh;
+    padding: 1.5rem 1.5rem;
+    border-radius:100% ;
+ }
+
+
+#icon1{
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    position: relative;
+    left: 3.5px;
+    top: 1.5px;
+}
+
+#icon4{
+    border-left: 2px solid #e5e5e5;
+    border-top: 2px solid #e5e5e5;
+}
+
+#icons h1{
+    color: rgb(102, 101, 101);
+}
+
+#icons p{
+    font-size: medium;
+    padding-bottom: 1rem;
+}
+
+#p2{
+    display: none;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+#card{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+    height: 80vh;
+    text-align: center;
+
+}
+
+#card1{
+    background-color: white;
+    margin-right: 30px;
+    border-radius:5px ;
+}
+
+#card2{
+    background-color: white;
+    border-radius:5px;
+}
+
+
+#card img{
+    width: 100%;
+    border-radius:5px ;
+    margin-bottom: 50px;
+}
+
+#card h1{
+    color: rgb(102, 101, 101);
+}
+
+#card button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(149, 147, 147);
+    font-weight: 200;
+    border: 2px solid #e5e5e5;
+    font-size: medium;
+}
+
+#p22{
+    display: none;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+
+#Signup{
+
+    padding-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color:rgb(232,153,128) ;
+    text-align: center;
+    height: 38vh;
+}
+
+#Signup h1{
+
+    font-size: 2.2rem;
+    color: white;
+    font-weight: 500;
+}
+
+#Signup p{
+    color: white;
+    margin-bottom: 30px;
+}
+
+#Signup input{
+    width: 18rem;
+    height: 3rem;
+    background-color: rgb(235,168,147);
+    border: none;
+    border-radius: 6px;
+    margin-right: 12px;
+
+}
+
+#Signup input::placeholder{
+    color:rgb(248, 236, 214);
+    padding-left: 15px;
+}
+
+#Signup button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(232,153,128);
+    font-weight: 200;
+    border:none;
+    font-size: medium;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+#footer{
+    margin-top: 5rem;
+    text-align: center;
+    height: 28vh;
+
+}
+
+#footer i{
+    width: 30px;
+    font-size: 1.8rem;
+    color: rgb(198,198,198);
+    margin: 9px;
+}
+
+#div2 #one , #two{
+    padding-right: 15px;
+    border-right: 1px solid rgb(202, 202, 202);
+}
+
+#div2 #three ,#two{
+    padding-left: 15px;
+}
+
+
+
+#footer p{
+    font-size: 14px;
+    color: rgb(164, 163, 163);
+
+}
+
+#footer a{
+    text-decoration: underline ;
+    color:rgb(164, 163, 163) ;
+}
+
+
+
+
+#footer #div2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+                         /* mobile */
+/* ------------------------------------------------------------------------------- */
+
+@media (max-width:600px) {
+
+    body{
+    background-size: 176%;
+    background-position-x: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#mobilemenue{
+   font-size: large;
+   color: white;
+   background-color: rgba(202, 202, 202, 0.914);
+   display: block;
+   width: 12%;
+   height: 30px;
+   border-radius: 5px;
+   margin: 9px;
+   text-align: center;
+   padding-top: 5px;
+   position: sticky;
+   top: 10px;
+
+
+}
+
+header{
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+
+#alpha{
+    width: 90%;
+    margin: auto; 
+    margin-top: 0;
+}
+#alpha h1{
+    font-size: 2rem;
+}
+#alpha p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#alpha button{
+    width: 90%;
+    margin-bottom: 12px;
+    height: 2.8rem;
+    font-size: 14px;
+}
+
+
+#mobile{
+    width: 100%;
+    height: auto;
+}
+
+#mobile h1{
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+#mobile hr{
+    width: 90%;
+}
+
+#mobile p{
+    display: none;
+    width: 90%;
+    font-size: 18px;
+}
+
+#mobile #para2{
+    display: block;
+    width: 90%;
+    font-size: 18px;
+}
+
+
+
+#icons {
+    height: auto;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+
+}
+
+#icons div{
+    width: 100%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#icon1{
+    
+    border-bottom:2px solid rgb(222, 222, 222) ;
+    left: 0;
+    top: 0;
+    position:static;
+}
+
+#icon3{
+    border-bottom:2px solid rgb(222, 222, 222) ;
+}
+
+#icon2{
+    border-bottom:2px solid rgb(222, 222, 222) ;
+
+}
+
+#icon4{
+    border-top: none;
+}
+
+
+.fa-bolt-lightning{
+    width: 8%;
+    height: 4vh;
+
+ }
+ 
+ .fa-cloud{
+    width: 8%;
+    height: 4vh;
+  }
+  .fa-chart-area{
+    width: 8%;
+    height: 4vh;
+  }
+  .fa-lock{
+    width: 8%;
+    height: 4vh;
+  }
+
+#icons p{
+    font-size: 14px
+}
+ 
+#p1{
+    display: none;
+}
+
+#p2{
+    text-align: center;
+    display: block;
+    font-size: small;
+    margin: 12px;
+    margin-bottom: 2rem;
+}
+
+
+
+#card{
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+    height: auto;
+    text-align: center;
+
+}
+
+#card1{
+    margin-right: 0;
+    border-radius:0 ;
+    margin-bottom: 1.2rem;
+}
+
+#card2{
+    border-radius:0;
+    margin-bottom: 0;
+}
+
+
+#card img{
+    border-radius:0px;
+    margin-bottom: 15px;
+}
+
+#card h1{
+    color: rgb(102, 101, 101);
+    font-size: 20px;
+}
+
+#card button{
+    width: 90%;
+    height: 2.5rem;
+    margin-bottom: 3rem;
+    font-size: small;
+}
+
+#p11{
+    display: none;
+}
+
+#p22{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+
+
+
+#Signup{
+
+    padding: 20px;
+    padding-top:20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: auto;
+}
+
+#Signup h1{
+    font-size: 1.5rem;
+}
+
+#Signup p{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+#Signup input{
+    width: 90%;
+    height: 2.5rem;
+    background-color: rgb(235,168,147);
+    border: none;
+    border-radius: 6px;
+    margin-right: 0px;
+
+}
+
+#Signup input::placeholder{
+    color:rgb(248, 236, 214);
+    padding-left: 15px;
+}
+
+#Signup button{
+    width: 90%;
+    height: 2.5rem;
+    margin-top: 15px;
+}
+
+
+
+
+#footer{
+    margin-top: 3rem;
+    height: auto;
+
+}
+
+#footer i{
+    width: 22px;
+    font-size: 1.6rem;
+}
+
+#div2 #one,#two,#three{
+    margin: 5px;
+}
+
+
+
+#footer p{
+    font-size: 14px;
+    color: rgb(164, 163, 163);
+
+}
+
+#footer a{
+    text-decoration: underline ;
+    color:rgb(164, 163, 163) ;
+}
+
+#footer #div2{
+    margin-top: 20px;
+    display: block;
+}
+
+
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+
+
+
+
+@media (min-width:600px) and (max-width:800px) {
+
+    body{
+    background-size: 176%;
+    background-position-x: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#mobilemenue{
+   font-size: large;
+   color: white;
+   background-color: rgba(202, 202, 202, 0.914);
+   display: block;
+   width: 12%;
+   height: 30px;
+   border-radius: 5px;
+   margin: 9px;
+   text-align: center;
+   padding-top: 5px;
+   position: sticky;
+   top: 10px;
+
+
+}
+
+header{
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+
+#alpha{
+    width: 90%;
+    margin: auto; 
+    margin-top: 0;
+}
+#alpha h1{
+    font-size: 2rem;
+}
+#alpha p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#alpha button{
+    width: 90%;
+    margin-bottom: 12px;
+    height: 2.8rem;
+    font-size: 14px;
+}
+
+
+#mobile{
+    width: 100%;
+    height: auto;
+}
+
+#mobile h1{
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+#mobile hr{
+    width: 90%;
+}
+
+#mobile p{
+    display: none;
+    width: 90%;
+    font-size: 18px;
+}
+
+#mobile #para2{
+    display: block;
+    width: 90%;
+    font-size: 18px;
+}
+
+
+
+#icons {
+    height: auto;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+
+}
+
+#icons div{
+    width: 100%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#icon1{
+    
+    border-bottom:2px solid rgb(222, 222, 222) ;
+    left: 0;
+    top: 0;
+    position:static;
+}
+
+#icon3{
+    border-bottom:2px solid rgb(222, 222, 222) ;
+}
+
+#icon2{
+    border-bottom:2px solid rgb(222, 222, 222) ;
+
+}
+
+#icon4{
+    border-top: none;
+}
+
+
+.fa-bolt-lightning{
+    width: 8%;
+    height: 4vh;
+
+ }
+ 
+ .fa-cloud{
+    width: 8%;
+    height: 4vh;
+  }
+  .fa-chart-area{
+    width: 8%;
+    height: 4vh;
+  }
+  .fa-lock{
+    width: 8%;
+    height: 4vh;
+  }
+
+#icons p{
+    font-size: 14px
+}
+ 
+#p1{
+    display: none;
+}
+
+#p2{
+    text-align: center;
+    display: block;
+    font-size: small;
+    margin: 12px;
+    margin-bottom: 2rem;
+}
+
+
+
+#card{
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+    height: auto;
+    text-align: center;
+
+}
+
+#card1{
+    margin-right: 0;
+    border-radius:0 ;
+    margin-bottom: 1.2rem;
+}
+
+#card2{
+    border-radius:0;
+    margin-bottom: 0;
+}
+
+
+#card img{
+    border-radius:0px;
+    margin-bottom: 15px;
+}
+
+#card h1{
+    color: rgb(102, 101, 101);
+    font-size: 20px;
+}
+
+#card button{
+    width: 90%;
+    height: 2.5rem;
+    margin-bottom: 3rem;
+    font-size: small;
+}
+
+#p11{
+    display: none;
+}
+
+#p22{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+
+
+
+#Signup{
+
+    padding: 20px;
+    padding-top:20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: auto;
+}
+
+#Signup h1{
+    font-size: 1.5rem;
+}
+
+#Signup p{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+#Signup input{
+    width: 90%;
+    height: 2.5rem;
+    background-color: rgb(235,168,147);
+    border: none;
+    border-radius: 6px;
+    margin-right: 0px;
+
+}
+
+#Signup input::placeholder{
+    color:rgb(248, 236, 214);
+    padding-left: 15px;
+}
+
+#Signup button{
+    width: 90%;
+    height: 2.5rem;
+    margin-top: 15px;
+}
+
+
+
+
+#footer{
+    margin-top: 3rem;
+    height: auto;
+
+}
+
+#footer i{
+    width: 22px;
+    font-size: 1.6rem;
+}
+
+#div2 #one,#two,#three{
+    margin: 5px;
+}
+
+
+
+#footer p{
+    font-size: 14px;
+    color: rgb(164, 163, 163);
+
+}
+
+#footer a{
+    text-decoration: underline ;
+    color:rgb(164, 163, 163) ;
+}
+
+#footer #div2{
+    margin-top: 20px;
+    display: block;
+}
+
+
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+
